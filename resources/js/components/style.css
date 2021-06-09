@@ -1,0 +1,123 @@
+.container {
+    margin-top: 30px;
+}
+
+.paragraf {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.paragraf p {
+    margin-bottom: 25px;
+}
+.my-button {
+    color: white;
+    min-width: 120px;
+    background-color: slateblue;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.my-button:hover {
+    background-color: blueviolet;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+
+.bazen-card {
+    width: auto;
+    border-radius: 6px;
+
+}
+.bazen-card img{
+    height: 200px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.bazen-card h2 {
+    text-decoration: none;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: slateblue;
+}
+
+.bazen-card h2:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+.modal-content {
+    padding: 6px;
+    min-height: 200px;
+    min-width: 400px;
+}
+.form {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+.close-modal-icon {
+    font-size: 20px;
+}
+.select {
+    display: flex;
+    flex-direction: column;
+}
+
+.poruka-prijave {
+    margin-top: 20px;
+    display: grid;
+    align-content: space-between;
+    justify-items: center;
+    min-height: 130px;
+}
+.poruka-prijave h4 {
+    text-align: center;
+}
+
+.card {
+    border-radius: 6px;
+    border-style: none;
+}
+
+.time {
+    border-radius: 6px;
+    border-width: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    font-weight: bold;
+    padding:5px
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slateblue;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.brSlob {
+ font-weight: bold;
+}
+
+.error {
+    color: red;
+}
